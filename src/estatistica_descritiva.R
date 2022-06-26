@@ -1,0 +1,6 @@
+library(readr)
+INFLUD21_20_06_2022 <- read_delim("Github/projeto-estatistica/repositorio/INFLUD21-20-06-2022.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
+INFLUD22_20_06_2022 <- read_delim("Github/projeto-estatistica/repositorio/INFLUD22-20-06-2022.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
+summary(INFLUD21_20_06_2022$CLASSI_FIN)
+hist(INFLUD21_20_06_2022$CLASSI_FIN)
+hist(INFLUD22_20_06_2022$CLASSI_FIN)
