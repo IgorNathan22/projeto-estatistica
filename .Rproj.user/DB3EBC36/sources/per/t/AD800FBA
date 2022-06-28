@@ -1,0 +1,26 @@
+{
+    "id": "AD800FBA",
+    "path": "~/Trabalhos - IFSP/5periodo/ESPA5/projeto/projeto-estatistica/src/estatistica_descritiva.R",
+    "project_path": "src/estatistica_descritiva.R",
+    "type": "r_source",
+    "hash": "2804829306",
+    "contents": "",
+    "dirty": false,
+    "created": 1656164853238.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "3,4",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1656166706,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1656166706272,
+    "read_only": false,
+    "read_only_alternatives": []
+}

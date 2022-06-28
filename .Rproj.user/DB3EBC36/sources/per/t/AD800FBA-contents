@@ -1,0 +1,9 @@
+library(readr)
+srag2021 <- read.table("F:\\Documentos\\Trabalhos - IFSP\\
+                     5periodo\\ESPA5\\projeto\\projeto-estatistica\\
+                     repositorio\\INFLUD21-20-06-2022.csv", header = TRUE, sep=".")
+summary(srag2021)S
+ls()
+rm(srag2021)
+
+teste <- srag2021
