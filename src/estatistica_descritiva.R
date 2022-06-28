@@ -4,8 +4,9 @@ INFLUD22_20_06_2022 <- read_delim("Github/projeto-estatistica/repositorio/INFLUD
 legenda_hospital <- c('1-Sim',
                       '2-Não',
                       '9-Ignorado')
-barplot(table(INFLUD21_20_06_2022$HOSPITAL), col=c('blue', 'red','seagreen'), main= 'Houve internação?')
+barplot(table(INFLUD21_20_06_2022$HOSPITAL), main= 'Houve internação?')
 legend('topright',legend=c(legenda_hospital))
+barplot(table(INFLUD22_20_06_2022$HOSPITAL), main= 'Houve internação?')
 pie(INFLUD21_20_06_2022$VACINA_COV)
 legenda_evolucao <- c('1-Cura',
                   '2-Óbito',
